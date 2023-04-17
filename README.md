@@ -1,24 +1,24 @@
-#Debugging 1
+# Debugging 1
 
 This repository contains an exercise and a challenge to practice defugging code systematically. The exercise foruses on encoding and decoding text using a simple substitution cipher, while the challenge is to find the most common letter in a given text. We also add RSpec tests to ensure the correctness of our solutions. 
 
-##Exercise: Encoding and Decoding Text
+## Exercise: Encoding and Decoding Text
 The exercise involves implementing and debuggin the ‘encode’ and ‘decode’ methods for a simple substitution cipher. The methods are provided in the ‘en_decode.rb’ file.The purpose of these methods is to encode a given plaintext message using a key and decode the resulting ciphertext using the same key.
 
-##RSpec Tests
+## RSpec Tests
 To ensure the correctness of the ‘encode’ and ‘decode’ methods, we have added RSpec tests in the ‘en_decode_spec.rb’ file. Run the tests with the following command:
 
 rspec en_decode_spec.rb
 
-##Challenge: Most common letter
+## Challenge: Most common letter
 The challenge is to implement and debug the ‘letter_frequency’ method. This method takes a text string as inputs and returns the most common letter in the given text, ignoring spaces. The first occurring most common letter should be returned in case of ties.
 
-##RSpec Tests
+## RSpec Tests
 To ensure the ‘letter_frequency’ method is correct, we have added RSpec test in the ‘letter_frequency_spec’ file. Run the tests with the following command:
 
 rspec letter_frequency_spec.rb
 
-##Debuggin Tips
+## Debuggin Tips
 When debuggin code for us, it is essential to follow a systematic approach. Here are some general tips for Debugging 1: encode and decode exercise
 
 - Understand the problem, read the code
